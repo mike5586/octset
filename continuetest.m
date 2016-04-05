@@ -31,9 +31,10 @@ for j=1:10%数据数量
 %     plot(abs(offt));
 %     saveas(h1,[num2str(j),'s'],'jpg');
     h2=figure;%原始信号
+    
     plot(inte3(oct_range),raw_no_sub);
     saveas(h2,[num2str(j),'raw'],'jpg')
-    figure;
+  
     %test version1
 end
 %   subplot(4,1)
